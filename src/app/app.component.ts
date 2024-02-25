@@ -12,6 +12,8 @@ const initBodyOverlayScrollbars = (force?: boolean) =>
     {
       scrollbars: {
         theme: 'os-theme-dark',
+        // theme: 'os-theme-light',
+        // theme: 'os-theme-custom',
       },
     }
   ).state().destroyed;

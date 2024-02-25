@@ -20,3 +20,41 @@
 // html {
 
 // }
+
+// .os-theme-custom {
+//   --os-size: 8px;
+//   --os-handle-bg: red;
+//   --os-handle-bg-hover: green;
+//   --os-handle-bg-active: blue;
+//   --os-handle-border-radius: 8px;
+//   --os-padding-perpendicular: 4px;
+// }
+
+// // horizontal scrollbar is 10px
+// .os-theme-custom.os-scrollbar-horizontal {
+//   --os-handle-bg: red;
+//   --os-handle-bg-hover: green;
+//   --os-handle-bg-active: blue;
+//   --os-size: 8px;
+//   --os-handle-border-radius: 8px;
+//   --os-padding-perpendicular: 4px;
+// }
+// // vertical scrollbar is 20px
+// .os-theme-custom.os-scrollbar-vertical {
+//   --os-handle-bg: red;
+//   --os-handle-bg-hover: green;
+//   --os-handle-bg-active: blue;
+//   --os-size: 8px;
+//   --os-handle-border-radius: 8px;
+//   --os-padding-perpendicular: 4px;
+// }
+
+
+// Overrides
+
+.os-theme-dark {
+  --os-size: 8px !important;
+  --os-handle-bg: red !important;
+  --os-handle-bg-hover: green !important;
+  --os-handle-bg-active: blue !important;
+}
